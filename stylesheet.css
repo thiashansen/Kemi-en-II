@@ -1,0 +1,158 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.billede {
+    background-image: url("https://preview.redd.it/1g50vnz5ube21.png?width=960&crop=smart&auto=webp&s=07d22cf56048e22cdc03156896c4a239a4c6d055");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.tekst {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    color: white;
+}
+
+#kontakt {
+    text-align: left;
+}
+
+@font-face {
+    font-family: pirateFont;
+    src: url(BlackPearl.ttf);
+}
+
+header {
+    color: white;
+    position: center;
+    text-align: center;
+    font-family: pirateFont;
+    background-color: #333;
+    height: 45;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 4;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    position: center;
+    float: center;
+}
+
+#navn {
+    position: center;
+    margin-left: 344.42;
+}
+
+
+.imgright {
+    float: right;
+    padding-right: 10px;
+    /* height: 65px;*/
+}
+
+/* Place the navbar at the top of the page, and make it stick */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 3;
+
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    width: auto;
+}
+
+.login-container {
+    float: right;
+    padding: 1px 1px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #0cd2f9;
+    color: white;
+}
+
+a:link {
+    color: cornflowerblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cornflowerblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
